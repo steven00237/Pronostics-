@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #1a1a2e;
+}
+
+header {
+    background-color: #1a1a2e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff5722;
+}
+
+main {
+    padding: 30px 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+section#matchs {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+article {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.ligue {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.match {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.match span:first-child,
+.match span:last-child {
+    flex: 1;
+    text-align: center;
+}
+
+.match span:first-child {
+    text-align: right;
+}
+
+.match span:last-child {
+    text-align: left;
+}
+
+.match span:nth-child(2) {
+    flex-shrink: 0;
+    color: #888;
+    font-weight: normal;
+}
+
+.pronostic {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+    color: #1a1a2e;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a2e;
+    color: white;
+    margin-top: 30px;
+}
