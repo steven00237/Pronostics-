@@ -3,7 +3,7 @@ const express = require("express");
 const https = require("https");
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const API_KEY = process.env.API_KEY;
 
 app.use(express.static("."));
